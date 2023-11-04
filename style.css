@@ -1,0 +1,414 @@
+body,html{
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+.nav-item{
+    padding: 0px 23px;
+    font-weight: 700;
+}
+.headerpic, .computerboy{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.firstcard{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.sharing{
+    font-size: 50px;
+}
+.through{
+    font-size: 50px;
+}
+.firstword{
+    font-size: 21px;
+}
+.iconbutton{
+    display: flex;
+}
+.explore{
+    padding: 10px 30px;
+    color: white;
+    background-color: #303e7a;
+    border-radius: 23px 23px 23px 23px;
+    border: none;
+    box-shadow: 5px 10px 18px rgb(153 145 145);
+}
+.value{
+    margin: 25px 0px 0px 15px;
+}
+.card1{
+    border:none !important;
+    box-shadow: 5px 10px 18px rgb(235, 230, 230);
+
+}
+.livedemo{
+    margin: 10px 0px 0px 23px;
+    font-weight: 700;}
+p{
+    margin-bottom: 0px;
+}
+.headerpic1{
+    width: 80%;
+}
+.coloring{
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.coloring1{
+    background-color: rgb(249, 176, 147);
+
+}
+.coloring2{
+background-color: rgb(172, 243, 172);
+}
+.coloring3{
+background-color: #efe9a1;
+}
+.coloring4{
+background-color: rgb(177, 177, 231);
+}
+.picture{
+    position: relative;
+    left: 6px;
+    top: 6px;
+}
+.card1{
+    flex-direction: row !important;
+}
+.solvepro{
+    padding: 30px;
+    box-shadow: 5px 10px 18px rgb(205 196 196);
+}
+.progress{
+    height: 0.25rem !important;
+}
+.text1{
+    margin-top: 10px;
+}
+.computerboysub{
+    width: 100%;
+}
+.fourcard{
+    width: 35%;
+    border-radius: 10%;
+    box-shadow: 5px 10px 18px black;
+}
+.fourcard11{
+    background-color: #7752be;
+    box-shadow: 5px 10px 18px #7752be;
+    margin-top: 24px;
+}
+.fourcard22{
+    background-color: #fab007;
+    box-shadow: 5px 10px 18px #fab007;
+    margin-top: 24px;
+}
+.fourcard33{
+    background-color: #ef3e3d;
+   box-shadow: 5px 10px 18px #ef3e3d; 
+   margin-top: 24px;
+}
+.fourcard44{
+    background-color: #4dadf7;
+    box-shadow: 5px 10px 18px #4dadf7;
+    margin-top: 24px;
+}
+.incard{
+    padding: 23px;
+    border: none !important;
+}
+.incard h5{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.incard p{
+    margin-top: 20px;
+}
+.incard img{
+    margin-left: 20px;
+    width: 13%;
+    border-radius: 20%;
+}
+.colorbutton{
+    color: white;
+    padding: 25px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 25%;
+}
+.mt50{
+    margin-top: 50px;
+}
+.fourcard1, .fourcard2, .fourcard3, .fourcard4 {
+    width: 40%;
+    margin: 0px 0px 0px 50px;
+}
+.fourcard4{
+    padding: 0px 0px 0px 0px;
+}
+.cardbox{
+    width: 100%;
+    padding: 30px;
+    border: none !important;
+    box-shadow: 5px 10px 18px rgb(235, 230, 230);
+}
+.cardbox h6{
+    margin-left: 49px;
+}
+.boxboy{
+    padding: 60px;
+}
+.flexible{
+    font-size: 18px !important;
+}
+.Flexible1{
+    font-size: 18px;
+}
+.build{
+    font-size: 55px;
+    font-weight: 600;
+}
+.incard img {
+    margin-left: 20px;
+    width: 10%;
+    border-radius: 20%;
+}
+
+/* media queries  */
+
+@media screen and (min-width: 220px) and (max-width: 309px) {
+    .card1 h6,h4{
+        margin-left: 65px;
+    }
+    .build-img img{
+        margin-top: 40px;
+    }
+    .cardbox h6{
+        margin-left: 35px;
+        font-size: 25px;
+    } 
+    .incard img {
+        margin-left: 20px;
+        width: 10%;
+        border-radius: 20%;
+    }
+    .cardbox h5{
+        font-size: 30px !important;
+    }
+    .boxboy{
+        padding: 0px;
+    }
+    .fourcard11{
+        background-color: #7752be;
+        box-shadow: 5px 10px 18px #7752be;
+        margin-top: 24px;
+    }
+    .fourcard22{
+        background-color: #fab007;
+        box-shadow: 5px 10px 18px #fab007;
+        margin-top: 24px;
+    }
+    .fourcard33{
+        background-color: #ef3e3d;
+       box-shadow: 5px 10px 18px #ef3e3d; 
+       margin-top: 24px;
+    }
+    .fourcard44{
+        background-color: #4dadf7;
+        box-shadow: 5px 10px 18px #4dadf7;
+        margin-top: 24px;
+    }
+}
+@media screen and (min-width: 310px) and (max-width: 480px) {
+.boxboy, .cardbox{
+padding: 0px;
+}
+.cardbox h6{
+    margin-left: 100px;
+    font-size: 25px;
+} 
+.incard img {
+    margin-left: 20px;
+    width: 10%;
+    border-radius: 20%;
+}
+.cardbox h5{
+    font-size: 30px !important;
+}
+.build-img img{
+    margin-top: 40px;
+}
+.incard{
+    padding: 0px;
+}
+.statistics{
+    flex-direction: column;
+}
+.incard img{
+    width: 13%;
+}
+.fourcard1, .fourcard2, .fourcard3, .fourcard4 {
+    width: 40%;
+    margin: 0px 0px 0px 100px;
+}
+.card1 h6,h4{
+    margin-left: 100px;
+}
+.fourcard11{
+    background-color: #7752be;
+    box-shadow: 5px 10px 18px #7752be;
+    margin-top: 24px;
+}
+.fourcard22{
+    background-color: #fab007;
+    box-shadow: 5px 10px 18px #fab007;
+    margin-top: 24px;
+}
+.fourcard33{
+    background-color: #ef3e3d;
+   box-shadow: 5px 10px 18px #ef3e3d; 
+   margin-top: 24px;
+}
+.fourcard44{
+    background-color: #4dadf7;
+    box-shadow: 5px 10px 18px #4dadf7;
+    margin-top: 24px;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 759px) {
+    .card1 h6,h4{
+        margin-left: 100px;
+    }
+    .fourcard11{
+        background-color: #7752be;
+        box-shadow: 5px 10px 18px #7752be;
+        margin-top: 24px;
+    }
+    .fourcard22{
+        background-color: #fab007;
+        box-shadow: 5px 10px 18px #fab007;
+        margin-top: 24px;
+    }
+    .fourcard33{
+        background-color: #ef3e3d;
+       box-shadow: 5px 10px 18px #ef3e3d; 
+       margin-top: 24px;
+    }
+    .fourcard44{
+        background-color: #4dadf7;
+        box-shadow: 5px 10px 18px #4dadf7;
+        margin-top: 24px;
+    }
+    .incard img {
+        margin-left: 20px;
+        width: 10%;
+        border-radius: 20%;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 922px) {
+.usingmethod{
+    flex-direction: column;
+}
+.build-img img{
+    margin-top: 60px;
+}
+#fourcard .card-text{
+    margin-right: 25px;
+}
+.fourcard3{
+    margin-left: 63px;
+}
+.fourcard11{
+    background-color: #7752be;
+    box-shadow: 5px 10px 18px #7752be;
+    margin-top: 24px;
+}
+.fourcard22{
+    background-color: #fab007;
+    box-shadow: 5px 10px 18px #fab007;
+    margin-top: 24px;
+}
+.fourcard33{
+    background-color: #ef3e3d;
+   box-shadow: 5px 10px 18px #ef3e3d; 
+   margin-top: 24px;
+}
+.fourcard44{
+    background-color: #4dadf7;
+    box-shadow: 5px 10px 18px #4dadf7;
+    margin-top: 24px;
+}
+.incard img {
+    margin-left: 20px;
+    width: 13%;
+    border-radius: 20%;
+}
+.through {
+    font-size: 37px;
+}
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+    .cardbox h6{
+        margin-left: 100px !important;
+    } 
+    .through {
+        font-size: 35px;
+    }
+    .email{
+        flex-direction: column;
+    }
+    .build-img img{
+        margin-top: 60px;
+    }
+    .incard img {
+        margin-left: 20px;
+        width: 10%;
+        border-radius: 20%;
+    }
+    .build{
+        text-align: center;
+    }
+    .card1 .text1{
+        font-size: 10px;
+        margin-left: 29px;
+    }
+    .card1 h4{
+        margin-left: 24px;
+    }
+    .card1 .value{
+        margin-left: 0px;
+    }
+    .coloring{
+        width: 45px;
+        height: 45px;
+    }
+    .fourcard11{
+        background-color: #7752be;
+        box-shadow: 5px 10px 18px #7752be;
+        margin-top: 24px;
+    }
+    .fourcard22{
+        background-color: #fab007;
+        box-shadow: 5px 10px 18px #fab007;
+        margin-top: 24px;
+    }
+    .fourcard33{
+        background-color: #ef3e3d;
+       box-shadow: 5px 10px 18px #ef3e3d; 
+       margin-top: 24px;
+    }
+    .fourcard44{
+        background-color: #4dadf7;
+        box-shadow: 5px 10px 18px #4dadf7;
+        margin-top: 24px;
+    }
+}
